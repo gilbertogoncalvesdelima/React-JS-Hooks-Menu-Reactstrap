@@ -1,70 +1,157 @@
-# Getting Started with Create React App
+# Componente, Function Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+function App() {
+  return (
+    <div id="AppPrincipal">
+      <h1>Function Component</h1>
+      <Identificacao1 />
+    </div>
+  );
+}
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Componente, Arrow Function
+const App = () => {
+return(
+  <div className="AppPrincipal">
+  <h1>Arrow Function</h1>
+  <Identificacao1 />
+</div>
+);
+}
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+# Componente, Class Component
+class App extends React.Component{
+render(){
+return(
+<div className="AppPrincipal">
+  <h1>Class Component</h1>
+  <Identificacao1 />
+</div>
+)
+}
+}
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Extrutura para montar sua tela
+// Importando o react
+import React from 'react'
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+//Aqui você escolhe qual dos 3 componentes acima você deseja usar, no caso vou utilizar este
+ 
+const App = () => {   // Nome do componente é App
+return(
+  <div id="AppPrincipal">  
+  //Aqui dentro vai conter o html, mas para isso funcionar você não pode esquecer de importa o react, igual citei, aqui em cima, na extrutura para montar sua tela
+  <h1>Arrow Function</h1>
+  <Identificacao1 />
+</div>
+);
+}
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Exportar componente, sempre tem que exportar para fora, para você pegar ele de voltar depois, tudo o que esta dentro desta tela
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+export default App;   // exportando o componente, quem é ele, é o nome App aonde demos o nome.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Para estilizar o css dentro de seu projeto você, pode usar o metodo comum.
 
-### Analyzing the Bundle Size
+Criando um arquivo, exemplo.css, depois importando este arquivo para que ele possa funcionar
+---------------------------------------------------------------------------------------------
+# Para estilizar o css dentro de um aquivo, javascript.
+//Comando para instalar styled-components/
+//yarn add styled-components
+depois, você deve importar, igual esta linha.
+----------------------------------------------------------------------------------------------
+// Para react.native import (Exemplo)
+// import styled, { css } from 'styled-components/native';
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+//Para react.native export (Exemplo)
+//export const Container = styled.Text`
+-----------------------------------------------------------------------------------------------
+//Para react.js
+import styled, { css } from 'styled-components';
 
-### Making a Progressive Web App
+// Para, React.js (Exemplo)
+export const Container = styled.div`
+text-align: center;
+background-color: yellow;
+`;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Instação Bootstrap (Para ficar mais bonito o estilo)
+yarn add bootstrap
+Fonte ficou muito mais linda com o Bootstrap
 
-### Advanced Configuration
+# Instação Reactstrap (Para ficar mais bonito o estilo)
+yarn add reactstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Site para utilizar os componentes
+https://reactstrap.github.io/
 
-### Deployment
+# roteador para trabalhar com as rotas
+yarn add react-router-dom
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Comando para instalar o styled-Component
+Estilizar o css dentro de um arquivo .js, arquivo javaScript
+//yarn add styled-components
+# Exemplo, estilizando css dentro de um arquivo javaScript:
 
-### `yarn build` fails to minify
+Arquivo criado (Styles.js)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+//Tela Css
+import styled, { css } from 'styled-components'
+
+export const Title = styled.h1`
+color: black;
+`;
+--------------------------------------------
+Arquivo criado (App.js)
+
+//Tela JavaScript
+import React from 'react';
+
+import * as St from './styles'
+
+const App = () => {
+  return (
+    <div>
+
+    <St.Title>
+     Olá Mundo
+    </St.Title>
+
+    </div>
+  );
+}
+
+export default App;
+
+-------------------------------------
+# Biblioteca para as fotos
+npm i react-masonry-component
+
+# Imagens gratuitas 
+pexel
+pixabay
+
+
+# Menu_Hemburguer_Responsivo_Reactstrap_React_Js
+# Menu_Hemburguer_Responsivo_Reactstrap_React_Js
+# menu_hamburguer_responsivo_reactstrap_react_js
+# menu_hamburguer_responsivo_reactstrap_react_js
+# menu_hamburguer_responsivo_reactstrap_react_js
+# menu_hamburguer_responsivo_reactstrap_react_js
+# menu_hamburguer_responsivo_reactstrap_react_js
+# -c-menu_hamburguer.reactstrap_react_js-menu_hamburguer.reactstrap_react_js
+# -c-menu_hamburguer.reactstrap_react_js-menu_hamburguer.reactstrap_react_js
