@@ -22,9 +22,6 @@ return(
 );
 }
 
-
-
-
 # Componente, Class Component
 class App extends React.Component{
 render(){
@@ -36,9 +33,6 @@ return(
 )
 }
 }
-
-
-
 
 
 # Extrutura para montar sua tela
@@ -145,13 +139,3 @@ npm i react-masonry-component
 pexel
 pixabay
 
-
-# Menu_Hemburguer_Responsivo_Reactstrap_React_Js
-# Menu_Hemburguer_Responsivo_Reactstrap_React_Js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# -c-menu_hamburguer.reactstrap_react_js-menu_hamburguer.reactstrap_react_js
-# -c-menu_hamburguer.reactstrap_react_js-menu_hamburguer.reactstrap_react_js
