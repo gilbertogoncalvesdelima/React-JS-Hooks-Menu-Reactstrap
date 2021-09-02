@@ -22,9 +22,6 @@ return(
 );
 }
 
-
-
-
 # Componente, Class Component
 class App extends React.Component{
 render(){
@@ -36,9 +33,6 @@ return(
 )
 }
 }
-
-
-
 
 
 # Extrutura para montar sua tela
@@ -145,6 +139,8 @@ npm i react-masonry-component
 pexel
 pixabay
 
+<<<<<<< HEAD
 -------------------------
 # Link para visualizar este projeto
 https://menu-hamburguer-reactstrap-react-js.netlify.app/
+
