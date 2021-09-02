@@ -90,17 +90,17 @@ background-color: yellow;
 `;
 
 # Instação Bootstrap (Para ficar mais bonito o estilo)
-yarn add bootstrap
+yarn add bootstrap (Falta esse)
 Fonte ficou muito mais linda com o Bootstrap
 
 # Instação Reactstrap (Para ficar mais bonito o estilo)
-yarn add reactstrap
+yarn add reactstrap 9Falta esse)
 
 # Site para utilizar os componentes
 https://reactstrap.github.io/
 
 # roteador para trabalhar com as rotas
-yarn add react-router-dom
+yarn add react-router-dom (Falta esse)
 
 # Comando para instalar o styled-Component
 Estilizar o css dentro de um arquivo .js, arquivo javaScript
@@ -145,13 +145,3 @@ npm i react-masonry-component
 pexel
 pixabay
 
-
-# Menu_Hemburguer_Responsivo_Reactstrap_React_Js
-# Menu_Hemburguer_Responsivo_Reactstrap_React_Js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# menu_hamburguer_responsivo_reactstrap_react_js
-# -c-menu_hamburguer.reactstrap_react_js-menu_hamburguer.reactstrap_react_js
-# -c-menu_hamburguer.reactstrap_react_js-menu_hamburguer.reactstrap_react_js
