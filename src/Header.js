@@ -7,7 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  NavbarToggler,
+  NavbarToggler
 } from "reactstrap";
 import { Link } from "react-router-dom";
 // Collapse, reduzir o menu para sanduiche, automaticamente
@@ -20,7 +20,7 @@ const Header = () => {
     setOpen(!open);
   };
   return (
-    <Navbar color="light" light expand="md">
+    <Navbar sticky="top" color="light" light expand="md">
       <NavbarBrand tag={Link} to="/">
         Engenheiro Youtuber
       </NavbarBrand>
