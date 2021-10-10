@@ -20,7 +20,7 @@ const Header = () => {
     setOpen(!open);
   };
   return (
-    <Navbar sticky="top" color="light" light expand="md">
+    <Navbar sticky="top" color="dark" dark expand="md">
       <NavbarBrand tag={Link} to="/">
         Engenheiro Youtuber
       </NavbarBrand>
