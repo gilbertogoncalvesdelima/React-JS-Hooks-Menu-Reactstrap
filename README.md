@@ -21,8 +21,9 @@ yarn add reactstrap
 
 # Site para utilizar os componentes
 
+```js
 https://reactstrap.github.io
-
+```
 ## Rotas
 
 ```js
@@ -30,13 +31,17 @@ yarn add react-router-dom
 ```
 
 # Biblioteca para as fotos
+```js
 npm i react-masonry-component
+```
 
 # Imagens gratuitas 
+```js
 pexel
 pixabay
-
+```
 -------------------------
 # Link para visualizar este projeto
+```js
 https://menu-hamburguer-reactstrap-react-js.netlify.app/
-
+```
