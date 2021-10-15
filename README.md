@@ -43,5 +43,5 @@ pixabay
 -------------------------
 # Link para visualizar este projeto
 ```js
-https://menu-hamburguer-reactstrap-react-js.netlify.app/
+https://galeria-imagem-reactstrap.netlify.app/
 ```
