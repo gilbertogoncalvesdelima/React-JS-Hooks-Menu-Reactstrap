@@ -2,7 +2,7 @@ import React from "react";
 
 import * as St from "./styles";
 
-const Catalogo = () => {
+const Home = () => {
   return (
     <div>
       <St.Title>Catalogo</St.Title>
@@ -10,4 +10,4 @@ const Catalogo = () => {
   );
 };
 
-export default Catalogo;
+export default Home;

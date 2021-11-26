@@ -20,34 +20,35 @@ const Header = () => {
     setOpen(!open);
   };
   return (
-    <Navbar sticky="top" color="dark" dark expand="md">
+    <Navbar sticky="top" color="dark" dark expand="md" height ="80px">
       <NavbarBrand tag={Link} to="/">
-        Engenheiro Youtuber
+        Jussi
       </NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={open} navbar>
         <Nav className="ml-auto" navbar>
+
           <NavItem>
-            <NavLink tag={Link} to="/catalogo">
-              Catálogo
+            <NavLink tag={Link} to="/home">
+              Home
             </NavLink>
           </NavItem>
 
           <NavItem>
-            <NavLink tag={Link} to="/galeria_fotos">
-              Galeria fotos
+            <NavLink tag={Link} to="/nossassolucoes">
+              Nossas Soluções
             </NavLink>
           </NavItem>
 
           <NavItem>
-            <NavLink tag={Link} to="/contato">
-              Contato
+            <NavLink tag={Link} to="/conhecajussi">
+              Home
             </NavLink>
           </NavItem>
 
           <NavItem>
-            <NavLink tag={Link} to="/adm">
-              Adm
+            <NavLink tag={Link} to="/login">
+              Login
             </NavLink>
           </NavItem>
 

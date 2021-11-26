@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "./Header";
-import adm from "./view/adm/index";
-import catalogo from "./view/catalogo/index";
-import contato from "./view/contato/index";
-import galeria_fotos from "./view/galeria_fotos/index";
+import login from "./view/login/index";
+import home from "./view/home/index";
+import nossasSolucoes from "./view/nossasSolucoes/index";
+import conhecaJussi from "./view/conhecaJussi/index";
+
 
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -13,11 +14,11 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Route path="/" exact component={catalogo} />
-        <Route path="/catalogo" component={catalogo} />
-        <Route path="/contato" component={contato} />
-        <Route path="/galeria_fotos" component={galeria_fotos} />
-        <Route path="/adm" component={adm} />
+        <Route path="/" exact component={home} />
+        <Route path="/home" component={home} />
+        <Route path="/login" component={login} />
+        <Route path="/nossassolucoes" component={nossasSolucoes} />
+        <Route path="/conhecajussi" component={conhecaJussi} />
       </div>
     </Router>
   );

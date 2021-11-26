@@ -1,7 +1,7 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Title = styled.h1`
-  background-color: blue;
+  background-color: Brown;
   width: auto;
   height: 1000px;
   color: white;

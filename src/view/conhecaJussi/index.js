@@ -2,12 +2,12 @@ import React from "react";
 
 import * as St from "./styles";
 
-const Adm = () => {
+const conhecaJussi = () => {
   return (
     <div>
-      <St.Title>Adm</St.Title>
+      <St.Title>Contato</St.Title>
     </div>
   );
 };
 
-export default Adm;
+export default conhecaJussi;

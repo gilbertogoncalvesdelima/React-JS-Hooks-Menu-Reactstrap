@@ -2,12 +2,12 @@ import React from "react";
 
 import * as St from "./styles";
 
-const Contato = () => {
+const Login = () => {
   return (
     <div>
-      <St.Title>Contato</St.Title>
+      <St.Title>Adm</St.Title>
     </div>
   );
 };
 
-export default Contato;
+export default Login;
