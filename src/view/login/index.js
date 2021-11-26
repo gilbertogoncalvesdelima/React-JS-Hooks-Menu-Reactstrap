@@ -5,7 +5,7 @@ import * as St from "./styles";
 const Login = () => {
   return (
     <div>
-      <St.Title>Adm</St.Title>
+      <St.Title>Login</St.Title>
     </div>
   );
 };

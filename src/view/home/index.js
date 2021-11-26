@@ -5,7 +5,9 @@ import * as St from "./styles";
 const Home = () => {
   return (
     <div>
-      <St.Title>Catalogo</St.Title>
+      <St.Title>Home</St.Title>
+    
+ 
     </div>
   );
 };

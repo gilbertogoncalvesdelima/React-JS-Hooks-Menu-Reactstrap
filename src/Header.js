@@ -20,9 +20,18 @@ const Header = () => {
     setOpen(!open);
   };
   return (
+    
     <Navbar sticky="top" color="dark" dark expand="md" height ="80px">
-      <NavbarBrand tag={Link} to="/">
-        Jussi
+     <NavbarBrand tag={Link} to="/">
+    
+      <img style={{ height: "30%", width: "30%"}}
+        src="https://res.cloudinary.com/drimg72d1/image/upload/v1637895493/logo.jpg"
+        className="img-fluid"
+        alt="..."
+      />
+    
+     
+      
       </NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={open} navbar>
@@ -42,7 +51,7 @@ const Header = () => {
 
           <NavItem>
             <NavLink tag={Link} to="/conhecajussi">
-              Home
+              Conheça a Jussi
             </NavLink>
           </NavItem>
 
